@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/fileConversionTool")
+@RequestMapping("/api/v1")
 public class FileConversionToolController {
 
     Logger log = LoggerFactory.getLogger(FileConversionToolController.class);

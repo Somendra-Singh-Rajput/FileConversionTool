@@ -22,8 +22,6 @@ public class FileConversionToolLoadService {
     @Value("${convert.api}")
     private String convertApi;
 
-    RestTemplate restTemplate = new RestTemplate();
-
     public FileConversionOutput convertFile(FileConversionInput fileConversionInput) throws IOException {
 
         FileConversionOutput fileConversionOutput = new FileConversionOutput();
